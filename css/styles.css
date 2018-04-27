@@ -1,0 +1,53 @@
+body {
+  background-color: #232132;
+}
+
+h1 {
+  font-family: fantasy;
+  text-align: center;
+  font-size: 4em;
+}
+h2 {
+  text-align:center;
+}
+
+h1,h2,td{
+  text-shadow: 1px 1px 0 #444;
+}
+
+.square {
+  margin: auto;
+}
+
+
+table, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #202030;
+  font-size: 6.5em;
+  font-family:sans-serif;
+  text-align: center;
+}
+
+.box:hover  {
+  background-color: #202025;
+}
+
+.box:active{
+  background-color: #202035;
+}
+
+.btn{
+  display:block;
+  background-color: #aaaaaa;
+  margin:auto;
+  font-family:Arial;
+  height:40px;
+  width:100px;
+  margin-top:10px;
+}
